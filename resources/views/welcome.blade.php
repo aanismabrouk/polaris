@@ -8,6 +8,9 @@
   <title>Polaris.tn</title>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/main.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
 </head>
 
 <body>
@@ -30,21 +33,21 @@
           <img src="/img/shoe-1.jpg" alt="" class="product__image">
           <h3 class="product__title">Confort FASHION</h3>
           <p class="product__description">36/41 Réf: GQ25</p>
-          <a href="" class="btn">Acheter maintenant</a>
+          <a class="btn buy-now">Acheter maintenant</a>
         </article>
 
         <article class="product shoe-white shoe-left spacing">
           <img src="/img/shoe-2.jpg" alt="" class="product__image">
           <h3 class="product__title">Simple Léger</h3>
           <p class="product__description">36/41 Réf: 20-360</p>
-          <a href="" class="btn">Acheter maintenant</a>
+          <a class="btn buy-now">Acheter maintenant</a>
         </article>
 
         <article class="product shoe-blue spacing">
           <img src="/img/shoe-3.jpg" alt="" class="product__image">
           <h3 class="product__title">Tendance Elégant</h3>
           <p class="product__description">Réf: ZD333</p>
-          <a href="" class="btn">Acheter maintenant</a>
+          <a class="btn buy-now">Acheter maintenant</a>
         </article>
 
       </div>
